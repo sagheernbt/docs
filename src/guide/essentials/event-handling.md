@@ -89,7 +89,7 @@ data() {
 methods: {
   greet(event) {
     // `this` inside methods points to the current active instance
-    alert(`Hello ${this.name}!`)
+    alert(`Hello ${this.name}!`)fsfasfafssssssssssssssssssafs
     // `event` is the native DOM event
     if (event) {
       alert(event.target.tagName)
